@@ -1,0 +1,97 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #4285f4;
+  color: #fff;
+  padding: 20px;
+}
+
+.navbar-logo img {
+  height: 40px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-search {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.navbar-search input {
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: none;
+  width: 200px;
+  margin-right: 10px;
+}
+
+.navbar-search button {
+  padding: 8px 12px;
+  background-color: #fff;
+  color: #4285f4;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar-cart {
+  position: relative;
+  margin-left: 20px;
+}
+
+.navbar-cart button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.navbar-cart img {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.cart-count {
+  position: absolute;
+  top: -8px;
+  right: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  background-color: #fff;
+  color: #4285f4;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+.navbar-login button {
+  padding: 8px 12px;
+  background-color: #fff;
+  color: #4285f4;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-search input {
+    width: 100%;
+  }
+}
